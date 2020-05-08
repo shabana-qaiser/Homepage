@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}.topbar{
+    background-color: blueviolet;
+    padding: 0px;
+    color: white;
+    width: auto;
+    height: 60px; 
+}
+.topbar .a{
+    margin: 0 7px;
+    padding: 15px;
+    float: left;
+}
+.container{
+    text-align: center;
+    width: auto;
+    margin: 0px 70px 0px 50px;
+}
+.socio{
+    float: left;
+    margin-top: 10px;
+    margin: 15px;
+    height: 10px;
+}
+.m{
+    float: left;
+    padding: 5px;
+    margin-top: -10px;
+    margin-left: 40px;
+    text-align: center;
+    height: 0.5px;
+}
+.btn{
+    float: right;
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 4em;
+}
+.clear{
+    clear: both;
+}
+.header{
+    background-color:white;
+    display: inline-block;
+}
+.logo{
+    float: left;
+}
+.menu{
+    float: right;
+    margin: 18px;
+    padding-right: 1px 
+}
+header{
+    background-color: blueviolet;
+    width: auto;
+    height: 4em;
+    height: 70px; 
+}
+
+height: 35px;
+    width: 150;
+    line-height:35px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+list-style: none;
+    color: black;
+    margin-top: 0px;
+    padding: 0 16px;
+#Time{
+    margin-top: 10px;
+    line-height: 60px;
+    padding-left: 40px;
+    height: 10px;
+}
+#q{
+    margin-top: 10px;
+    text-align: center;
+    inline-height: 1px;
+    padding: 0px;
+    height: 0.1px;
+}
+#btn{
+    margin-top: 0px;
+    padding-top: 0px;
+    inline-height: 0px;
+    padding-left: 720px;
+    height: 2px;
+}
+
+.logo{
+    margin-top: 100px;
+    padding-left: 10px;
+    margin: 0px;
+    display: inline-block;
+}
+.menu{
+    padding: 0px;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 85px;
+    padding-right: 0px;
+    display: inline-block;
+}
+.menu ul{
+    list-style-type: none;
+    margin-top: 0.px;
+    margin-right: 0px;
+}
+.menu ul li{
+    background-color:white;
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+    padding-left:0px;
+    line-height:35px;
+    float: left;
+    position: relative;
+    border-radius: 120px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.menu ul li .s{
+    background-color:white;
+    width: 65px;
+    margin: 0px;
+    padding-left: 0px;
+    line-height:35px;
+    float: left;
+    position: relative;
+    border-radius: 80px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.menu ul li a:hover{
+    background-color: blueviolet;
+    border-radius: 85px;
+    font-weight: bold;
+}
+
+.menu ul ul{
+    position: absolute;
+    display: none;
+    margin-right: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu ul li:hover >ul{
+    display: block;
+}
+.menu ul ul ul{
+    margin-left: 80px;
+    top: 0px;
+    width: 90px;
+    margin-right: 80px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+    padding: 0px;
+    color: blueviolet;
+}
+.I{
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.gr{
+    color: green;
+}
+.sl{
+    text-align: center;
+}
+.green{
+    color: green;
+} 
+.blue{
+    color:blue;
+} 
+
+#H{
+    text-align: center;
+    margin: 0px;
+    padding-top: 0px;
+}
+
+#geo{
+    margin: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+,container counter{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.cn{
+    color: snow;
+    font-weight: 600;
+}
+.text center{
+    text-align: center;
+    background-color: violet;
+    color: white;
+    display: inline-block;
+}
+#gallery{
+    float: left;
+    width: 150px;
+    height: 180px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#container{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+#image{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+#overlay{
+    position: absolute;
+    transition: all 3s ease;
+    opacity: 0;
+    background-color: white;
+}
+#container:hover .overlaytop{
+   opacity: 1;
+}
+#overlaytop{
+    height: 100;
+    width: 0;
+    top: 0;
+    left: 0;
+}
+#container:hover .overlaytop
+{
+    width: 100;
+}
+
+.text center{
+    text-align: center;
+    background-color: violet;
+    display: inline-block;
+}
+h2{
+    color: black
+}
+.counter{
+    background-color: violet;
+    text-align: center;
+    height: 380px;
+    padding-top: 120px;    
+}
+
+.container counter .col-3{
+    border: 1px solid;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0)
+}
+.text-center box-shadow{
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+}    
+td{
+    display: inline-block;
+    flex-wrap: wrap;   
+}
+.section-content{
+    border:2px solid white;
+    background-color: wheat;
+    height: 400px;
+    width: 700px;
+    display: inline-block;  
+}
+.up{
+    display: inline-block;
+    width: 200px;    
+}
+.work{
+    margin-top: 20px;
+    background-color: silver;
+    margin-top: 10px;
+    inline-height:200;
+    height: 250px;
+    flex: content;
+}
+
+.event{
+    margin-top: 80px;
+    background-color: silver;
+}
+
+.pro{
+    display: inline-block;
+}
+.up-cmg{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-right: 50px;
+}
+.mar-d{
+    height: 250px;
+}
+.hap{
+   border: 2px solid red;
+   height: 60px;
+   width: 200px;
+   margin-right: 45px;
+   margin-top: 50px;
+   flex: auto;
+}
+.ho{
+    border: 2px solid red;
+    height: 60px;
+    width: 200px;
+    display: inline-block;  
+}
+.it{
+    border: 2px solid red;
+    height: 60px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.rt{
+    border: 2px solid red;
+    height: 60px;
+    width: 200px;
+    display: inline-block;
+ }
+.line{
+    color: white;
+    opacity: 1px;
+    height: 900px;   
+}
+.gl{
+    border: 1px solid white;
+    position: relative;
+    display: inline-block;
+}
+.overlay{
+    position: absolute;
+    transition: all 3ease;
+    opacity: 0;
+    background-color: whitesmoke;
+}
+.container 1:hover .overlay{
+    opacity: 1;
+} 
+.overlayleft{
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+}
+.container 1:hover .overlaytop{
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width: 1200px;
+    margin-top: 20px;
+    padding: 50px;
+    padding-left: 10px;
+    display: inline-block;
+}
+.add{
+    margin-left: 30px;
+    display: inline-block;
+}
+.footer-bottom{
+    background-color: blueviolet;
+    color: white;
+    height: 13px;
+    width: 100%;
+    margin-left: 0px;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+.up-arrow{
+    position: fixed;
+    height: 80px;
+    width: 100px;
+    bottom: 5px;
+    right: 2px;
+}
+.up arrow:hover{
+    background-color: powderblue;
+} 
+
+
+
+
+
+
+
+
+
+
